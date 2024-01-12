@@ -12,10 +12,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    clipmain.cpp
+    clipmain.cpp \
+    playslider.cpp
 
 HEADERS += \
-    clipmain.h
+    clipmain.h \
+    playslider.h
 
 FORMS += \
     clipmain.ui
