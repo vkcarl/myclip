@@ -2,6 +2,8 @@
 #define PLAYSLIDER_H
 
 #include <QSlider>
+#include <QMouseEvent>
+
 
 class PlayerSlider : public QSlider
 {

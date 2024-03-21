@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>test.qml</file>
+        <file>timeline.qml</file>
+        <file>Shotcut/Controls/Button.qml</file>
+        <file>Shotcut/Controls/ColorPicker.qml</file>
+        <file>Shotcut/Controls/ComboBox.qml</file>
+        <file>Shotcut/Controls/DoubleSpinBox.qml</file>
+        <file>Shotcut/Controls/EditMenu.qml</file>
+        <file>Shotcut/Controls/Gauge.qml</file>
+        <file>Shotcut/Controls/GradientControl.qml</file>
+        <file>Shotcut/Controls/HorizontalScrollBar.qml</file>
+        <file>Shotcut/Controls/HoverTip.qml</file>
+        <file>Shotcut/Controls/KeyframableFilter.qml</file>
+        <file>Shotcut/Controls/KeyframesButton.qml</file>
+        <file>Shotcut/Controls/Marker.qml</file>
+        <file>Shotcut/Controls/MarkerBar.qml</file>
+        <file>Shotcut/Controls/MotionTrackerDialog.qml</file>
+        <file>Shotcut/Controls/Preset.qml</file>
+        <file>Shotcut/Controls/qmldir</file>
+        <file>Shotcut/Controls/RectangleControl.qml</file>
+        <file>Shotcut/Controls/SaveDefaultButton.qml</file>
+        <file>Shotcut/Controls/SimplePropertyUI.qml</file>
+        <file>Shotcut/Controls/SliderSpinner.qml</file>
+        <file>Shotcut/Controls/TextFilterUi.qml</file>
+        <file>Shotcut/Controls/TextFilterVui.qml</file>
+        <file>Shotcut/Controls/TimeSpinner.qml</file>
+        <file>Shotcut/Controls/TipBox.qml</file>
+        <file>Shotcut/Controls/ToggleButton.qml</file>
+        <file>Shotcut/Controls/ToolButton.qml</file>
+        <file>Shotcut/Controls/UndoButton.qml</file>
+        <file>Shotcut/Controls/VerticalScrollBar.qml</file>
+        <file>Shotcut/Controls/VuiBase.qml</file>
+    </qresource>
+</RCC>

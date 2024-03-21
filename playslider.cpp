@@ -14,6 +14,12 @@ void PlayerSlider::setProgress(qint64 i64Progress)
 void PlayerSlider::mousePressEvent(QMouseEvent *e)
 {
     m_bPressed = true;//用户操作进度条时，不再让进度条响应QMediaPlaer设置的进度信息；
+    // 将点击位置转换为滑块值
+    if (e->button() == Qt::LeftButton) {
+        int value = minimum() + ((maximum() - minimum()) * e->x()) / width();
+        setValue(value);
+        e->accept();
+    }
     QSlider::mousePressEvent(e);//必须有这句，否则手动不能移动滑块
 }
 // 移动
